@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="eS">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geotérmica</title>
+    <link rel="stylesheet" href="css/Hojadeestilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="me-2 ms-2">
+        <nav class="navbar navbar-expand-lg text-bg-primary">
+            <div class="container-fluid text-bg-primary p-3">
+                <a class="navbar-brand" href="index.html">Inico</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ventajas.html">Ventajas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Tipos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="eolica.html">Energía Eólica</a></li>
+                                <li><a class="dropdown-item" href="fotovoltaica.html">Energía Fotovoltaica</a></li>
+                                <li><a class="dropdown-item" href="hv.html">Energía de Hidrogeno Verde</a></li>
+                                <li><a class="dropdown-item" href="geotermica.html">Energía Geotérmica</a></li>
+                                <li><a class="dropdown-item" href="mareomotriz.html">Energía Mareomotriz</a></li>
+                                <li><a class="dropdown-item" href="nuclear.html">Energía Nuclear</a></li>
+                            </ul>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carrusel/la-energia-eolica.jpg" class="d-block w-100" alt="..." width=auto
+                        height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel/energia-fotovoltaica-2-1.jpg" class="d-block w-100" alt="..." width="600"
+                        height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel/Energia Mareomotriz.jpeg" class="d-block w-100" alt="..." width="600"
+                        height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel/energia geotermica.jpg" class="d-block w-100" alt="..." width="600"
+                        height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel/energia-nuclear-en-el-mundo-1.jpg" class="d-block w-100" alt="..."
+                        width="600" height="600">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <div class="row mt-5 ">
+        <aside class="col-sm-12 col-md-4 ps-3">
+            <div class="list-group ">
+                <a href="#definicion" class="list-group-item list-group-item-action text-bg-primary p-3">¿Qué es la energía geotérmica</a>
+                <a href="#uso" class="list-group-item list-group-item-action text-bg-primary p-3">¿Para qué se utiliza la energía geotérmica?</a>
+                <a href="#extraccion" class="list-group-item list-group-item-action text-bg-primary p-3">¿Cómo extraen energía las centrales geotérmicas?</a>
+                <a href="#funcionamiento" class="list-group-item list-group-item-action text-bg-primary p-3">¿Cómo funciona una central geotérmica?</a>
+                <a href="#ventajas" class="list-group-item list-group-item-action text-bg-primary p-3">Ventajas y desventajas de la energía geotérmica</a>
+            </div>
+        </aside>
+        <section class=" col-sm-12 col-md-8 ps-5">
+            <div></div>
+            <!--Definición de Energia de geotermica-->
+            <div class="row">
+                <div id="definicion">
+                    <h1 class="p-5">¿Qué es la energía Geotérmica</h1>
+                    <small> <strong>25 de marzo de 2024 por: Cesar Urrea </strong> </small>
+                    <div class="text-center mb-3">
+                        <img src="img/geotermica.jpg" class="img-fluid float-end mt-2 ms-2 me-2 mb-2" alt="" width="300"
+                            height="250">
+                    </div>
+                    <p class="text-start">La etimología griega del nombre nos da muchas pistas sobre lo que implica la geotermia: geō (tierra) y thermós (calor). Es decir, la energía que proviene del calor de la tierra. El Consejo Europeo de la Energía Geotérmica (EGEC) la define como <b>“la energía almacenada en forma de calor por debajo de la superficie de la tierra”. </b>Esta definición hace referencia al calor almacenado en rocas, suelos y aguas subterráneas, cualquiera que sea su temperatura, profundidad o procedencia.</p>
+                    <p>Se considera una <b>energía renovable y limpia.</b> El calor que proporciona es ilimitado y la temperatura del subsuelo es muy estable, lo que permite obtener rendimientos energéticos elevado.</p>
+                    <p>Existen diferentes tipos de energía geotérmica dependiendo del tipo de recurso natural del que se extraiga (de agua caliente, pozos secos, géiseres, vapor seco), la profundidad de perforación (superficial, desde algunos metros hasta grandes profundidades por encima de 10 Km) o la temperatura del agua (de alta a baja temperatura), entre otros.</p>
+                </div>
+            </div>
+            <br>
+            <!--/Definición de Energía de geotermica-->
+            <!--Uso de energia de geotermica-->
+            <div class="row">
+                <div id="uso">
+                    <h1 class="p-5">¿Para qué se utiliza la energía geotérmica?</h1>
+                    <br>
+                    <p>La geotermia se puede utilizar para <b>producir electricidad o para usos térmicos.</b> Las posibilidades de este tipo de energía dependen fundamentalmente de la temperatura a la que se encuentren los recursos geotérmicos:</p>
+                    <ul>
+                        <li><b>A baja temperatura (menos de 100 grados centígrados).</b> La energía obtenida se usa para el aprovechamiento térmico en procesos industriales y agrícolas, en sistemas de calefacción y refrigeración urbanos y para generar agua caliente sanitaria.</li>
+                        <br>
+                        <li><b>A media temperatura (entre 100 y 150 grados centígrados).</b> Sus aplicaciones son principalmente térmicas (calefacción, agua caliente sanitaria…) en el ámbito industrial, residencial y en el sector servicios. De forma minoritaria, se emplea en la generación de energía eléctrica.</li>
+                        <br>
+                        <li><b>A alta temperatura (más de 150 grados centígrados).</b> Se aprovecha para producir energía eléctrica. También se aprovecha ocasionalmente en sistemas de calefacción geotermal.</li>
+                    </ul>
+                </div>
+            </div>
+            <!--/Uso de energia geotermica-->
+            <!--Extraccion de la energia geotermica-->
+            <div class="row">
+                <div id="extraccion">
+                    <h1 class="p-5">¿Cómo extraen energía las centrales geotérmicas?</h1>
+                    <br>
+                    <p>La tierra está compuesta por varios estratos o capas rocosas que van desde el centro hasta la zona más superficial. El núcleo del planeta está conformado por una masa sólida e incandescente compuesta por minerales, rocas fundidas y gases, entre los que predominan el hierro y el níquel. Por encima del núcleo está el manto, también bastante fluido y caliente y finalmente la corteza terrestre, la capa más superficial que aun así es de aproximadamente 20 km de espesor.
+                    </p>
+                    <p>Cuando el agua de las precipitaciones se filtra a través de la corteza terrestre, forma masas de agua (corrientes profundas y acuíferos) que, al entrar en contacto con el calor del subsuelo, dan lugar a una reserva geotérmica formada por agua y vapor a elevadas temperaturas. En ocasiones el calor existe, pero no el acuífero, por lo que para explotar la energía geotérmica hay que inyectar algún fluido que permita extraerla (normalmente agua).</p>
+                    <p>Las centrales geotérmicas extraen la energía térmica en forma de agua caliente y vapor. En la superficie se aprovecha esa energía bien directamente separando el vapor de la mezcla con un separador ciclónico o bien indirectamente utilizando un intercambiador de calor. El agua sobrante se reinyecta de nuevo en el subsuelo para reiniciar el ciclo y el vapor obtenido se envía a una turbina para generar electricidad.</p>
+                </div>
+            </div>
+            <!--/Extraccion de la energia geotermica-->
+            <!--¿Cómo funciona una central geotérmica?-->
+            <div class="row">
+                <div id="funcion">
+                    <h1 class="p-5">¿Cómo funciona una central geotérmica?</h1>
+                    <br>
+                    <ul class="text-start me-2 ms-2 mt-2 mb-2">
+                        <img src="img/tipos/geotermica/funcionamiento.png" class="rounded float-start col-md-6 me-5" alt="" width="500" height="600">
+                        <li>
+                            <p>Se extrae una mezcla de vapor y agua de la reserva geotérmica mediante un pozo subterráneo.</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>La mezcla llega al separador ciclónico, donde se disocia el vapor de las moléculas de agua.</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>El agua en estado líquido se devuelve al subsuelo para que se vuelva a calentar.</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>El vapor extraído hace girar una turbina (energía mecánica), que a su vez activa un generador de energía eléctrica.</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>El generador transforma la energía mecánica en energía eléctrica.</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>Un transformador envía la energía eléctrica a las subestaciones, que se encargan de trasladarla a la red de distribución.</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>El vapor sobrante se condensa, se vuelve a inyectar en el subsuelo y el proceso se repite de nuevo.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/¿Cómo funciona una central geotérmica?-->
+            <!--Ventajas y desventajas de la energía geotérmica-->
+            <div class="row">
+                <div id="ventajas">
+                    <h1 class="p-5">Ventajas y desventajas de la energía geotérmica</h1>
+                    <br>
+                    <p>El principal inconveniente de la energía geotérmica es la elevada inversión inicial que hay que realizar para la instalación del sistema, además del riesgo de que la perforación no encuentre el recurso geotérmico necesario.</p>
+                    <p>La energía geotérmica solo se puede explotar con relativa facilidad si existe un recurso “anómalo”, es decir mayor calor del convencional a poca profundidad. Esto ocurre únicamente en zonas geológicamente activas con volcanes o fallas tectónicas.</p>
+                    <p>Por el contrario, las ventajas que reúne la geotermia son amplias:</p>
+                    <br>
+                    <ul>
+                        <li><p>Al ser una <b>fuente renovable de producción continua, </b>supone una gran alternativa frente a los combustibles fósiles.</p></li>
+                        <br>
+                        <li><p>Es una <b>energía estable</b> porque no depende de las fluctuaciones de recursos meteorológicos como el viento o el sol.</p></li>
+                        <br>
+                        <li><p>Los recursos geotérmicos son <b>prácticamente inagotables</b> a escala humana</p></li>
+                        <li><p>Supone un <b>gran ahorro,</b> tanto económico como energético. Aunque la inversión inicial es importante, ofrece una gran durabilidad y requiere de un escaso mantenimiento.</p></li>
+                        <li><p>Las instalaciones geotérmicas <b>tienen un bajo impacto visual y no generan ruidos exteriores.</b> Además, los residuos que produce son mínimos.</p></li>
+                    </ul>
+                </div>
+            </div>
+            <!--/Ventajas y desventajas de la energía geotérmica-->
+        </section>
+        <footer>
+            <div class="text me-auto p-3 mb-2 mt-2 m">
+                <h6>Es importante aclarar</h6>
+                <p> que la información contenida en esta página no toma en cuenta los procesos de
+                    extracción de recursos necesarios para la creación de las tecnologías requeridas, y de ser tomadas
+                    en
+                    cuenta no se podrían llamar energías limpias</p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>

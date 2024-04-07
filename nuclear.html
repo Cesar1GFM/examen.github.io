@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="eS">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energía Nuclear</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Hojadeestilos.css">
+</head>
+
+<body>
+    <header class="me-2 ms-2">
+        <nav class="navbar navbar-expand-lg text-bg-primary">
+            <div class="container-fluid text-bg-primary p-3">
+                <a class="navbar-brand" href="index.html">Inico</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ventajas.html">Ventajas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Tipos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="eolica.html">Energía Eólica</a></li>
+                                <li><a class="dropdown-item" href="fotovoltaica.html">Energía Fotovoltaica</a></li>
+                                <li><a class="dropdown-item" href="hv.html">Energía de Hidrogeno Verde</a></li>
+                                <li><a class="dropdown-item" href="geotermica.html">Energía Geotérmica</a></li>
+                                <li><a class="dropdown-item" href="mareomotriz.html">Energía Mareomotriz</a></li>
+                                <li><a class="dropdown-item" href="nuclear.html">Energía Nuclear</a></li>
+                            </ul>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carrusel/la-energia-eolica.jpg" class="d-block w-100" alt="..." width=auto
+                        height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel/energia-fotovoltaica-2-1.jpg" class="d-block w-100" alt="..." width="600"
+                        height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel/Energia Mareomotriz.jpeg" class="d-block w-100" alt="..." width="600"
+                        height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel/energia geotermica.jpg" class="d-block w-100" alt="..." width="600"
+                        height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel/energia-nuclear-en-el-mundo-1.jpg" class="d-block w-100" alt="..."
+                        width="600" height="600">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <section>
+        <div class="row mt-5 ">
+            <aside class="col-sm-12 col-md-4 ps-3">
+                <div class="list-group ">
+                    <a href="#definicion" class="list-group-item list-group-item-action text-bg-primary p-3">¿Qué es la energía nuclear?</a>
+                    <a href="#ventajas" class="list-group-item list-group-item-action text-bg-primary p-3">Ventajas y desventajas de la Energia Nuclear.</a>
+                    <a href="#funcion" class="list-group-item list-group-item-action text-bg-primary p-3">Funcionamiento de una central nuclear</a>
+                    <a href="#fision" class="list-group-item list-group-item-action text-bg-primary p-3">Reactores nucleares de fisión</a>
+                    <a href="#tipos" class="list-group-item list-group-item-action text-bg-primary p-3">Tipos de reactores nucleares</a>
+                    <a href="#radioactividad" class="list-group-item list-group-item-action text-bg-primary p-3">¿Qué es la radioactividad?</a>
+                    <a href="#radioactividadn" class="list-group-item list-group-item-action text-bg-primary p-3">Radiactividad natural y artificial</a>
+                    <a href="#fision_nuclear" class="list-group-item list-group-item-action text-bg-primary p-3">La fisión nuclear</a>
+                    <a href="#impacto" class="list-group-item list-group-item-action text-bg-primary p-3">Impacto ambiental de las centrales nucleares</a>
+                </div>
+            </aside>
+            <section class=" col-sm-12 col-md-8 ps-5">
+                <!--Definición de Energia Nuclear-->
+                <div class="row">
+                    <div id="definicion">
+                        <h1 class="p-5">¿Qué es la energía nuclear?</h1>
+                        <small> <strong>25 de marzo de 2024 por: Cesar Urrea </strong> </small>
+                        <div class="text-center mb-3">
+                            <img src="img/tipos/nuclear/chimenea-central-nuclear.jpg" class="img-fluid float-end mt-2 ms-2 me-2 mb-2"
+                                alt="" width="300" height="250">
+                        </div>
+                        <p class="text-start">La energía nuclear es la energía contenida en el núcleo de un átomo. Los átomos son las partículas más pequeñas en que se puede dividirse un elemento químico manteniendo sus propiedades. En el núcleo de cada átomo hay dos tipos de partículas (neutrones y protones) que se mantienen unidas. La energía nuclear es la energía que mantiene unidos neutrones y protones.</p>
+                        <p>La energía nuclear se puede utilizar para producir electricidad. Pero primero la energía debe ser liberada. Ésta energía se puede obtener de dos formas: fusión nuclear y fisión nuclear. En la fusión nuclear, la energía se libera cuando los núcleos de los átomos se combinan o se fusionan entre sí para formar un núcleo más grande. Así es como el sol produce energía. En la fisión nuclear, los núcleos se separan para formar núcleos más pequeños, liberando energía. Las centrales nucleares utilizan la fisión nuclear para producir electricidad.</p>
+                        <p>Cuando se produce una de estas dos reacciones nucleares (la fisión nuclear o la fusión nuclear) los átomos experimentan una ligera pérdida de masa. Esta masa que se pierde se convierte en una gran cantidad de energía calorífica y de radiación, como descubrió Albert Einstein con su famosa ecuación E=mc². La energía calorífica producida se utiliza para producir vapor y generar electricidad. Aunque la producción de energía eléctrica es la utilidad más habitual que se le da a la energía nuclear, también se puede aplicar en muchos otros sectores, como en aplicaciones médicas o medioambientales.</p>
+                    </div>
+                </div>
+                <br>
+                <!--/Definición de Energía Nuclear-->
+                <!--Ventajas y desventajas-->
+                <div class="row">
+                    <div id="ventajas">
+                        <br>
+                        <div class="card  float-start me-2 mt-2 mb-2" style="width: 18rem;">
+                            <img src="img/nuclear.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Ventajas: </h5>
+                                <ul class="card-text">
+                                    <li>Baja ocupación de terreno. Se produce una gran cantidad de energía en un espacio reducido.</li>
+                                    <li>Se obtiene energía de forma continua y en grandes cantidades.</li>
+                                    <li>Producción energética sin CO2 y, por tanto, es una herramienta importante contra el efecto invernadero.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card  float-end float-start ms-2 mt-2 mb-2" style="width: 18rem;">
+                            <img src="img/tipos/nuclear/accdiente nuclear.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Desventajas: </h5>
+                                <ul class="card-text">
+                                    <li>Materias primas escasas.</li>
+                                    <li>Aunque los accidentes son muy extraños, tienen graves consecuencias.</li>
+                                    <li>Se producen residuos radioactivos peligrosos que permanecen activos miles de años.</li>
+                                    <li>A pesar de que se trata de una tecnología probada y madura, su seguridad depende en gran medida del factor humano.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/Ventajas y desventajas-->
+                <!--Funcion-->
+                <div class="row">
+                    <div id="funcion">
+                        <h1 class="p-5">Funcionamiento de una central nuclear</h1>
+                        <p>El funcionamiento de una central nuclear se basa en el aprovechamiento del calor para mover una turbina por la acción del vapor de agua, la cual está conectada a un generador eléctrico. Para conseguir el vapor de agua se utiliza como combustible el uranio o el plutonio. El proceso se puede simplificar en cinco fases:</p>
+                        <br>
+                        <ul>
+                            <li>La fisión del uranio se lleva a cabo en el reactor nuclear, liberando una gran cantidad de energía que calienta el agua hasta evaporarla.</li>
+                            <li>Este vapor se transporta al conjunto turbina–generador mediante un circuito de vapor.</li>
+                            <li>Una vez ahí, las aspas de la turbina giran por la acción del vapor y mueven el generador, que trasforma la energía mecánica en electricidad.</li>
+                            <li>Cuando el vapor de agua ha pasado por la turbina, se envía a un condensador donde se enfría y se vuelve líquido.</li>
+                            <li>Después, el agua se transporta para volver a conseguir vapor, cerrando así el circuito del agua.</li>
+                        </ul>
+                        <p>Los residuos generados por la fisión del uranio son almacenados dentro de la propia central, en unas piscinas de hormigón especiales para materiales radioactivos.</p>
+                    </div>
+                </div>
+                <!--/Funcion-->
+                <br>
+                <!--Fision-->
+                <div class="row">
+                    <div id="fision">
+                        <h1 class="p-5">Reactores nucleares de fisión</h1>
+                        <p>Un reactor nuclear de fisión es una instalación capaz de iniciar, mantener y controlar las reacciones de fisión en cadena, disponiendo de los medios adecuados para extraer el calor generado. Sus elementos principales son:</p>
+                        <br>
+                        <ul>
+                            <img src="img/tipos/nuclear/proceso-reaccion-nuclear.jpg" class="float-start col-md-6 me-4" alt="" width="1100" height="610">
+                            <li>Combustible: Formado por un material fisionable, generalmente compuesto de uranio en el que tienen lugar las reacciones de fisión. Es la fuente de generación de calor.</li>
+                            <br>
+                            <li>Moderador: Hace disminuir la velocidad de los neutrones rápidos generados en la fisión, manteniendo la reacción. Se acostumbra a utilizar agua, agua pesada, helio, grafito o sodio metálico.</li>
+                            <br>
+                            <li>Elementos de control: Permiten controlar en todo momento la población de neutrones y mantener estable el reactor.</li>
+                            <br>
+                            <li>Refrigerante: Extrae el calor generado por el combustible. Generalmente se utilizan refrigerantes líquidos como el agua ligera, el agua pesada o gases como el anhídrido carbónico y el helio.</li>
+                            <br>
+                            <li>Blindaje: Evita que les radiaciones y los neutrones del reactor se escapen al exterior. Por lo general, se utiliza hormigón, acero o plomo.</li>
+                            <br>
+                            <li>Elementos de seguridad: Todas las centrales nucleares de fisión disponen de múltiples sistemas de seguridad para evitar que se libere radioactividad al exterior.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/Fision-->
+                <!--Tipos de reactores nucleares-->
+            <div class="row">
+                <div id="tipos">
+                    <h1 class="p-5">Tipos de reactores nucleares</h1>
+                    <p>Los reactores térmicos se pueden clasificar según el moderador que utilicen. Generalmente, cada moderador tiene asociado un tipo de combustible y un tipo de refrigerante. Las diferencias esenciales entre estos reactores son los siguientes: </p>
+                    <ul>
+                        <li>
+                            <h5>Reactores de agua ligera</h5>
+                            <p>Dentro de este grupo existen dos tipos de reactores:</p> 
+                            <br>
+                            <div class="card  float-start me-2 mt-2 mb-2" style="width: 18rem;">
+                                <img src="img/tipos/nuclear/Reactor de agua a presión.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5>Reactor de agua a presión:</h5>
+                                    <ul class="card-text">
+                                        <li>Utilizan agua como moderador y refrigerante. El combustible utilizado es el uranio ligeramente enriquecido en forma de dióxido de uranio. Este tipo de reactor se ha desarrollado principalmente en los Estados Unidos, Rusia, Alemania, Francia y Japón.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card  float-end ms-2 mt-2 mb-2" style="width: 18rem;">
+                                <img src="img/tipos/nuclear/Reactor de agua en ebullición.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5>Reactor de agua en ebullición:</h5>
+                                    <ul class="card-text">
+                                        <li>En este tipo de reactor, una parte del agua del refrigerante (que a la vez actúa como moderador) pasa a la fase vapor en el propio reactor. Se ha desarrollado principalmente en los Estados Unidos.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <br>
+                        <li class="rounded float-start mt-2">
+                            <h5>Reactor de agua pesada</h5>
+                            <img src="img/tipos/nuclear/reactor de agua pesada.jpg" class="rounded float-start col-md-4 ms-2 me-2" alt="" width="400" height="300">
+                            <p class="rounded float-start col-md-4">El reactor de agua pesada utiliza el uranio natural como combustible, mientras que el agua pesada se usa como moderador y como refrigerante. Este tipo de reactor se ha desarrollado principalmente en Canadá.</p>
+                            <br>
+                        </li>
+                        <li class="rounded float-start mt-2">
+                            <h5>Reactor de uranio natural, gas y grafito</h5>
+                            <p>Utiliza el uranio natural en forma metálica como combustible; el grafito como moderador, y el anhídrido carbónico como refrigerante. Estos reactores se han desarrollado principalmente en Francia y Gran Bretaña.</p>
+                        </li>
+                        <br>
+                        <li class="rounded float-start mt-2">
+                            <h5>Reactor avanzado de gas</h5>
+                            <img src="img/tipos/nuclear/reactor avanzado de gas.png" class="rounded float-start me-2 ms-2 mb-3" alt="" width="500" height="300">
+                            <p class="rounded float-start col-md-4">Utilizan óxido de uranio ligeramente enriquecido y dispuesto en tubos de acero inoxidable como combustible.</p>
+                        </li>
+                        <br>
+                        <li class="rounded float-start mt-2">
+                            <h5>Reactor de grafito y agua ligera</h5>
+                            <img src="img/tipos/nuclear/reactor de grafito y agua ligera.png" class="rounded float-start me-2 ms-2 mb-3" alt="" width="500" height="300">
+                            <p class="rounded float-start col-md-4">Este diseño, exclusivamente soviético, utiliza uranio ligeramente enriquecido como combustible; grafito como moderador, y agua como refrigerante, que se transforma en vapor en el propio reactor.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/Tipos de reactores Nucleares-->
+            <!--¿Qué es la radioactividad-->
+            <br>
+            <div class="row">
+                <div id="radioactividad">
+                    <h1 class="p-5">¿Qué es la radioactividad?</h1>
+                    <p>Visto el funcionamiento de una central nuclear vamos a ver más en detalle qué es la radioactividad. Se trata de un fenómeno físico que consiste en la emisión o propagación de energía en forma de ondas o de partículas subatómicas como, por ejemplo, las ondas electromagnéticas emitidas por el Sol o las partículas emitidas por sustancias radioactivas</p>
+                    <p>Es una propiedad interna de los átomos, por lo que está muy relacionada con el estudio de la estructura de la materia A lo largo de la historia, numerosos científicos investigaron e hicieron importantes avances sobre qué es la radioactividad y en qué consiste. Entre ellos destacan: Rutherford, Pierre y Marie Curie, Bequerel, Geiger y Marsden, Planck, Bohr o Hertz.</p>
+                    <br>
+                    <h3>Emisiones</h3>
+                    <p>Cuando se produce alguna transformación en los núcleos atómicos se emiten partículas y radiaciones electromagnéticas de elevada frecuencia. Hay elementos que pueden producir este fenómeno de manera natural y hay otros de los que se pueden obtener isótopos radioactivos de forma artificial.</p>
+                </div>
+            </div>
+            <!--/¿Qué es la radioactividad-->
+            <!--Radiactividad natural-->
+            <br>
+            <div class="row">
+                <div id="radioactividadn">
+                    <h1 class="p-5">Radiactividad natural</h1>
+                    <p>Es la radioactividad que existe en la naturaleza sin intervención humana. Puede ofrecer tres tipos de transiciones radioactivas, a cada una de las cuales le corresponde un tipo de radiación:</p>
+                    <ul>
+                        <li><b>Radiación Alfa:</b> Una desestabilización del núcleo puede llegar a hacer que dos protones y dos neutrones se junten y formen un núcleo de helio con energía suficiente como para abandonar el núcleo inicial.</li>
+                        <li><b>Radiación Beta:</b> En esta radiación un neutrón se transforma en un protón. Esta radiación es mucho más penetrante que la radiación Alfa y para frenarla es necesaria una lámina de aluminio de unos cuantos milímetros de grosor. Por lo tanto, puede afectar fácilmente a los tejidos humanos.</li>
+                        <li><b>Radiación Gamma:</b> Consiste en una radiación electromagnética emitida por un núcleo en estado de excitación. Cuando desparece la excitación siempre se forma un núcleo más estable. Esta es muy difícil de parar, pudiendo traspasar con naturalidad el cuerpo humano.</li>
+                    </ul>
+                    <h1>Radiactividad artificial</h1>
+                    <p>Cuando se bombardea un núcleo con las partículas adecuadas, estas pueden penetrar en el núcleo y formar uno nuevo. La radioactividad artificial fue descubierta en el año 1939 por el matrimonio Curie.</p>
+                </div>
+            </div>
+            <!--/Radiactividad natural-->
+            <!--La fisión nuclear-->
+            <br>
+            <div class="row">
+                <div id="fision_nuclear">
+                    <h1 class="p-5">La fisión nuclear</h1>
+                    <p>La fisión nuclear consiste en la división del núcleo de un átomo pesado en otros elementos más ligeros, de forma que en esta reacción se genere una gran cantidad de energía. Esta división es provocada por el choque del átomo con un neutrón. El proceso de fisión es posible a causa de la inestabilidad que tienen los núcleos de algunos elementos químicos de elevado número atómico.</p>
+                    <p>En estas condiciones solo hace falta una pequeña cantidad de energía para provocar que el núcleo se rompa en dos trozos. Tienes a tu disposición un juego interactivo que explica la fisión nuclear de una manera sencilla. La reacción nuclear de fisión fue descubierta por los científicos O. Hahn y F. Strassmann el año 1938.</p>
+                </div>
+            </div>
+            <!--/La fisión nuclear-->
+            <!--Impacto ambiental de las centrales nucleares-->
+            <div class="row mb-5">
+                <div id="impacto">
+                    <h1 class="p-5">Impacto ambiental de las centrales nucleares</h1>
+                    <p>Las centrales nucleares están sujetas a un estricto control reglamentario institucional difícil de igualar por parte de otras actividades industriales. Esta reglamentación tiene en cuenta todas y cada una de las fases que forman el ciclo de producción, contemplando también la protección de los trabajadores, el público en general y el desmantelamiento de la central al final de su vida útil.</p>
+                    <p>Es importante recordar que las centrales nucleares no contribuyen al calentamiento global, puesto que no envían a la atmósfera óxidos de carbono, azufre, nitrógeno ni otros elementos derivados a la combustión, como las cenizas. No obstante, sí que hay que tener precaución con la generación de electricidad mediante la energía nuclear, tanto en la extracción, el concentrado y enriquecimiento del uranio, como en la propia producción de energía eléctrica.</p>
+                    <p>La producción de energía eléctrica en centrales nucleares genera residuos radioactivos de larga duración que deben almacenarse en la misma central y en depósitos especiales para materiales radioactivos.</p>
+                </div>
+            </div>
+            <!--/Impacto ambiental de las centrales nucleares-->
+            </section>
+            <footer>
+                <div class="text me-auto p-3 mb-2 mt-2 m">
+                    <h6>Es importante aclarar</h6>
+                    <p> que la información contenida en esta página no toma en cuenta los procesos de extracción de recursos necesarios para la creación de las tecnologías requeridas, y de ser tomadas en cuenta no se podrían llamar energías limpias</p>
+                </div>
+            </footer>
+        </div>
+    </section>
+</body>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>

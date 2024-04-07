@@ -1,0 +1,50 @@
+*{
+    width: auto;
+    height: auto;  
+}
+body, html {
+    background-color: #1b3942 !important;
+    color:#5bb5ba !important ;
+}
+
+
+footer{
+    background-color: #1b253d;
+    text-align: justify;
+    padding: auto;
+}
+footer .h6{
+    text-align: center !important;
+    text-size-adjust: 5px;
+}
+.color1 {color: #111b26;}
+.color2 {color: #1b3942;}
+.color3 {color: #2a5363;}
+.color4 {color: #3e8389;}
+.color5 {color: #5bb5ba;}
+img{
+    width: 50%;
+    height: 50%;
+}
+div .card-body{
+    background-color: #1b3942 !important;
+    color:#5bb5ba !important ;
+}
+b{
+    color: #111b26;
+}
+/* Modificar la clase navbar de Bootstrap */
+.navbar, .carousel {
+    width: 100vw !important;
+}
+
+
+/* Modificar la clase carousel de Bootstrap */
+.carousel .carousel-item img {
+    width: 100% !important;
+}
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+    color:#111b26 !important; 
+}
+

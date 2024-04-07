@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="eS">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energías Eólicas</title>
+    <link rel="stylesheet" href="css/Hojadeestilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="me-2 ms-2">
+        <nav class="navbar navbar-expand-lg text-bg-primary">
+            <div class="container-fluid text-bg-primary p-3">
+                <a class="navbar-brand" href="index.html">Inico</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ventajas.html">Ventajas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Tipos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="eolica.html">Energía Eólica</a></li>
+                                <li><a class="dropdown-item" href="fotovoltaica.html">Energía Fotovoltaica</a></li>
+                                <li><a class="dropdown-item" href="hv.html">Energía de Hidrogeno Verde</a></li>
+                                <li><a class="dropdown-item" href="geotermica.html">Energía Geotérmica</a></li>
+                                <li><a class="dropdown-item" href="mareomotriz.html">Energía Mareomotriz</a></li>
+                                <li><a class="dropdown-item" href="nuclear.html">Energía Nuclear</a></li>
+                            </ul>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carrusel/la-energia-eolica.jpg" class="d-block w-100" alt="..." width=auto
+                        height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel/energia-fotovoltaica-2-1.jpg" class="d-block w-100" alt="..." width="600"
+                        height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel/Energia Mareomotriz.jpeg" class="d-block w-100" alt="..." width="600"
+                        height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel/energia geotermica.jpg" class="d-block w-100" alt="..." width="600"
+                        height="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrusel/energia-nuclear-en-el-mundo-1.jpg" class="d-block w-100" alt="..."
+                        width="600" height="600">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <div class="row mt-5 ">
+        <aside class="col-sm-12 col-md-4 ps-3">
+            <div class="list-group ">
+                <a href="#definicion" class="list-group-item list-group-item-action text-bg-primary p-3">¿Qué es la
+                    energía eólica?</a>
+                <a href="#funcion" class="list-group-item list-group-item-action text-bg-primary p-3">Cómo funciona la energía eólica.</a>
+                <a href="#tipos" class="list-group-item list-group-item-action text-bg-primary p-3">Tipos de energía eólica</a>
+                <a href="#ventajas" class="list-group-item list-group-item-action text-bg-primary p-3">Principales ventajas de la energía eólica</a>
+            </div>
+        </aside>
+        <section class=" col-sm-12 col-md-8 ps-5">
+            <!--Definición de Energia Limpia-->
+            <div class="row">
+                <div id="definicion">
+                    <h1 class="p-5">¿Qué es la energía eólica?</h1>
+                    <small> <strong>25 de marzo de 2024 por: Cesar Urrea </strong> </small>
+                    <div class="text-center mb-3">
+                        <img src="img/tipos/eolica/Energia-eolica-1.jpg" class="img-fluid float-end mt-2 ms-2 me-2 mb-2"
+                            alt="" width="300" height="250">
+                    </div>
+                    <p class="text-start">La energía eólica, que transforma en electricidad la fuerza de un recurso
+                        inagotable como el viento, es una apuesta sostenible y de valor para el futuro. El
+                        aprovechamiento del viento requiere de la instalación de parques eólicos, ya sea en tierra o en
+                        alta mar, con decenas de aerogeneradores. Estos gigantes se han convertido en parte del paisaje
+                        en los últimos años, pero ¿sabemos cómo funcionan?</p>
+                    <p>¿Cómo se genera el viento? La radiación solar no incide por igual en toda la superficie de la
+                        Tierra: hay zonas que se calientan más que otras y en esas el aire, que pesa menos, tiende a
+                        ascender generando áreas de bajas presiones; en cambio, en las más frías el aire desciende y
+                        pesa más creando áreas de altas presiones. <b> La diferencia entre presiones hace que el aire se
+                            mueva y se origine el viento, un elemento tan poderoso que puede utilizarse para generar
+                            energía.</b></p>
+                    <p><b>La energía eólica es aquella que se obtiene a partir de la fuerza del viento.</b> ¿Cómo? A
+                        través de un aerogenerador que transforma la energía cinética de las corrientes de aire en
+                        energía eléctrica. El proceso de extracción se realiza principalmente gracias al rotor, que
+                        transforma la energía cinética en energía mecánica, y al generador, que transforma dicha energía
+                        mecánica en eléctrica. Hablamos de una energía renovable, eficiente, madura y segura clave para
+                        la transición energética y la descarbonización de la economía.</p>
+                </div>
+            </div>
+            <br>
+            <!--/Definición de Energía Limpia-->
+            <!--Funcion-->
+            <div class="row">
+                <div id="funcion">
+                    <h1>Cómo funciona la energía eólica.</h1>
+                    <br>
+                    <p>Para aprovechar la energía cinética del viento y convertirla en energía eléctrica, es necesario,
+                        tal y como ya hemos comentado, el uso de un aerogenerador. El óptimo aprovechamiento de estos
+                        gigantes suele tener entre 80 y 120 metros de altura depende de la fuerza del viento. Por ello,
+                        <b>los parques eólicos, que agrupan un gran número de aerogeneradores y hacen posible la
+                            obtención de esta energía en grandes cantidades, deben implantarse en lugares donde la
+                            presencia del viento sea predominante.</b></p>
+                    <p>Los aerogeneradores han de orientarse en la dirección del viento esto sucede gracias a una veleta
+                        que se encuentra en la góndola. A partir de ahí, la fuerza de las corrientes de aire pondrá en
+                        funcionamiento <b>las tres principales partes del aerogenerador:</b></p>
+                    <ul>
+                        <img src="img/tipos/eolica/partes-aerogenerador.jpg" class="rounded float-end mb-2 mt-2 me-2"
+                            alt="" width="100" height="10">
+                        <li>
+                            <p><b>El rotor:</b> compuesto por tres palas y el buje que las une, su función es captar la
+                                fuerza del viento y convertirla en energía mecánica de rotación.</p>
+                        </li>
+                        <p> </p>
+                        <li>
+                            <p><b>La multiplicadora: </b> unida al motor mediante un eje, su función es elevar la
+                                velocidad de giro de 30 revoluciones por minuto (rpm) a 1500 rpm.</p>
+                        </li>
+                        <p> </p>
+                        <li>
+                            <p><b>El generador: </b>este elemento se encarga de convertir la energía mecánica de
+                                rotación en energía eléctrica.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/Funcion-->
+            <!--Tipos de Energia eolica-->
+            <div class="row">
+                <div id="tipos">
+                    <h1>Tipos de Energía Eolica</h1>
+                    <p>En la actualidad, existen dos tipos de energía eólica en función del lugar donde se instalan los
+                        aerogeneradores:</p>
+                    <ul>
+                        <div class="card float-start" style="width: 18rem;">
+                            <img src="img/tipos/eolica/Eolica.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="card-text text-center">Energía eólica terrestre</h2>
+                                <p class="text-start lh-sm">La energía eólica terrestre se encarga de producir energía
+                                    eléctrica a partir del aprovechamiento del viento que realizan los parques eólicos
+                                    emplazados en tierra. Para ello, se instalan una serie de aerogeneradores capaces de
+                                    transformar la energía cinética del viento en energía eléctrica apta para el consumo
+                                    e integrarla en la red de distribución.</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card float-end" style="width: 18rem;">
+                            <img src="img/tipos/eolica/marina.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="card-text text-center">Energía eólica marina</h2>
+                                <p class="text-start lh-sm">La energía eólica marina es aquella fuente de energía que se
+                                    obtiene al aprovechar la fuerza del viento que se produce en alta mar, donde este
+                                    alcanza una velocidad mayor y más constante debido a la inexistencia de barreras.
+                                    Para explotar al máximo este recurso, se desarrollan megaestructuras asentadas sobre
+                                    el lecho marino y dotadas con las últimas innovaciones técnicas.</p>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <!--/Tipos de Energia-->
+            <!--Funcion-->
+            <div class="row">
+                <div id="ventajas">
+                    <h1>Principales ventajas de la energía eólica</h1>
+                    <br>
+                    <p>La energía eólica ofrece numerosos beneficios, tanto para las compañías que apuestan por ella como para la sociedad al ayudar a minimizar el impacto del cambio climático:</p>
+                    <ul>
+                        <li><p><b>Limpia: </b> Al no requerir ningún proceso de combustión, se trata de una energía con unas bajas emisiones de gases de efecto invernadero (GEI), los principales culpables del calentamiento global.</p></li>
+                        <li><p><b>Inagotable: </b>El viento es un recurso ilimitado, así como su aprovechamiento siempre y cuando haya corrientes de aire suficientes.</p></li>
+                        <li><p><b>Barata: </b>Tanto el coste por kW producido como su mantenimiento es bastante bajo. En zonas donde el viento sopla más fuerte el beneficio es aún mayor.</p></li>
+                        <li><p><b>Bajo impacto: </b>Los parques eólicos se instalan tras un riguroso proceso de estudio y planificación. Además, se buscan zonas despobladas para evitar el efecto negativo en los habitantes.</p></li>
+                    </ul>
+                </div>
+            </div>
+            <!--/Funcion-->
+        </section>
+        <footer>
+            <div class="text me-auto p-3 mb-2 mt-2 m">
+                <h6>Es importante aclarar</h6>
+                <p> que la información contenida en esta página no toma en cuenta los procesos de
+                    extracción de recursos necesarios para la creación de las tecnologías requeridas, y de ser tomadas
+                    en
+                    cuenta no se podrían llamar energías limpias</p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
