@@ -36,6 +36,9 @@ b{
 .navbar, .carousel {
     width: 100vw !important;
 }
+.navbar .dropdown-menu {
+    background-color: #00008B !important;
+}
 .carousel .carousel-item img {
     width: 100% !important;
 }
