@@ -33,13 +33,9 @@ div .card-body{
 b{
     color: #111b26;
 }
-/* Modificar la clase navbar de Bootstrap */
 .navbar, .carousel {
     width: 100vw !important;
 }
-
-
-/* Modificar la clase carousel de Bootstrap */
 .carousel .carousel-item img {
     width: 100% !important;
 }
